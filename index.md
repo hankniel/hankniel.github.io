@@ -1,38 +1,14 @@
 ## Portfolio
-
 ---
+## Data Analyst
 
-### Category Name 1 
-
-[Project 1 Title](/sample_page)
+### Detect Fraud Transactions using Machine Learning
 
 [![Open Notebook](https://img.shields.io/badge/Jupyter-Open_Notebook-blue?logo=Jupyter)](projects/Fraud%20Detection.html)
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
 
-
----
-[Project 2 Title](/pdf/sample_presentation.pdf)
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
-
----
-[Project 3 Title](http://example.com/)
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
+<div style="text-align: justify">Perform Exploratory Data Analysis, analyze and transform data, Feature Engineering and build Machine Learning models to detect fraudulent transactions. My model can detect **96%** of fraudulent transactions.</div>
+<br>
+<center><img src="images/fb-food-trends.png"></center>
+<br>
 
 ---
-
-### Category Name 2
-
-- [Project 1 Title](http://example.com/)
-- [Project 2 Title](http://example.com/)
-- [Project 3 Title](http://example.com/)
-- [Project 4 Title](http://example.com/)
-- [Project 5 Title](http://example.com/)
-
----
-
-
-
-
----
-<p style="font-size:11px">Page template forked from <a href="https://github.com/evanca/quick-portfolio">evanca</a></p>
-<!-- Remove above link if you don't want to attibute -->
