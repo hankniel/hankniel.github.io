@@ -14,7 +14,7 @@
 ---
 ### RFM Analysis and Segmentation using Python
 
-[![Open Notebook](https://img.shields.io/badge/Jupyter-Open_Notebook-blue?logo=Jupyter)](projects/Customer Segmentation Analysis and Churn Prediction.html)
+[![Open Notebook](https://img.shields.io/badge/Jupyter-Open_Notebook-blue?logo=Jupyter)](projects/Customer%20Segmentation%20Analysis%20and%20Churn%20Prediction.html)
 
 <div style="text-align: justify">Analyze Pizza Hut's fictitious customer data based on RFM Segmentation. Performing Customer Lifetime Value and Churn Probability predictions using Machine Learning and BG/NBD - Gamma-Gamma Model.
 </div>
