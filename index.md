@@ -14,9 +14,10 @@
 ---
 ### RFM Analysis and Segmentation using Python
 
-[![Open Notebook](https://img.shields.io/badge/Jupyter-Open_Notebook-blue?logo=Jupyter)](projects/Fraud%20Detection.html)
+[![Open Notebook](https://img.shields.io/badge/Jupyter-Open_Notebook-blue?logo=Jupyter)](projects/Customer Segmentation Analysis and Churn Prediction.html)
 
-<div style="text-align: justify">Perform Exploratory Data Analysis, analyze and transform data, Feature Engineering and build Machine Learning models to detect fraudulent transactions. My model can detect <b>96%</b> of fraudulent transactions.</div>
+<div style="text-align: justify">Analyze Pizza Hut's fictitious customer data based on RFM Segmentation. Performing Customer Lifetime Value and Churn Probability predictions using Machine Learning and BG/NBD - Gamma-Gamma Model.
+</div>
 <br>
 <center><img src="images/output.png"></center>
 <br>
