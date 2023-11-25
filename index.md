@@ -14,7 +14,7 @@
 
 ---
 
-### Detect Fraud Transactions using Machine Learning
+### Detect Fraud Transactions using Machine Learning (XGBoost)
 
 [![Open Notebook](https://img.shields.io/badge/Jupyter-Open_Notebook-blue?logo=Jupyter)](projects/Fraud%20Detection.html)
 
