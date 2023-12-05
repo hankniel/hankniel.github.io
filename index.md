@@ -25,3 +25,14 @@
 
 ---
 
+### Business Growth Strategy Analysis in PowerBI
+
+[![Open PBI](https://img.shields.io/badge/PowerBI-Open_PowerBI-blue?logo=Power-BI)](projects/PowerBI%20Project.pbix)
+
+<div style="text-align: justify">Analyze data of a fictional company that needs to grow and expand its business using several metrics and time-series analysis. Provide insights and recommendations for the company's growth plan regarding details on the market, time of penetration, target customer profile, etc.</div>
+<br>
+<center><img src="images/powerbi_output.jpg"></center>
+<br>
+
+---
+
