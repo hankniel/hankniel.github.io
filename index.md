@@ -25,6 +25,17 @@
 
 ---
 
+### Anime Recommendation System in PySpark
+
+[![Open Notebook](https://img.shields.io/badge/Jupyter-Open_Notebook-blue?logo=Jupyter)](projects/recommendation.ipynb)
+
+<div style="text-align: justify">Build a simple anime recommendation model with Collaborative Filtering (ALS Algorithm) and predict ratings for unwatched anime using data from MyAnimeList Database 2020.</div>
+<br>
+<center><img src="images/recommendation.png"></center>
+<br>
+
+---
+
 ### Business Growth Strategy Analysis in PowerBI
 
 [![Open PBI](https://img.shields.io/badge/PowerBI-Open_PowerBI-blue?logo=Power-BI)](projects/PowerBI%20Project.pbix)
