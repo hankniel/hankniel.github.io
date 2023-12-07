@@ -27,7 +27,7 @@
 
 ### Anime Recommendation System in PySpark
 
-[![Open Notebook](https://img.shields.io/badge/Jupyter-Open_Notebook-blue?logo=Jupyter)](projects/recommendation.ipynb)
+[![Open Notebook](https://img.shields.io/badge/Jupyter-Open_Notebook-blue?logo=Jupyter)](projects/recommendation.html)
 
 <div style="text-align: justify">Build a simple anime recommendation model with Collaborative Filtering (ALS Algorithm) and predict ratings for unwatched anime using data from MyAnimeList Database 2020.</div>
 <br>
