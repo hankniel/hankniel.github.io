@@ -2,7 +2,7 @@
 ---
 ## Data Analyst
 
-### Customer Segmentation Analysis and Churn Prediction
+### Customer Segmentation Analysis and Churn Prediction (Python)
 
 [![Open Notebook](https://img.shields.io/badge/Jupyter-Open_Notebook-blue?logo=Jupyter)](projects/Customer%20Segmentation%20Analysis%20and%20Churn%20Prediction.html)
 
@@ -14,7 +14,7 @@
 
 ---
 
-### Detect Fraud Transactions using Machine Learning (XGBoost)
+### Detect Fraud Transactions using Machine Learning (XGBoost Model - Python)
 
 [![Open Notebook](https://img.shields.io/badge/Jupyter-Open_Notebook-blue?logo=Jupyter)](projects/Fraud%20Detection.html)
 
@@ -25,18 +25,18 @@
 
 ---
 
-### Anime Recommendation System in PySpark
+### Anime Recommendation System (PySpark and Python)
 
-[![Open Notebook](https://img.shields.io/badge/Jupyter-Open_Notebook-blue?logo=Jupyter)](projects/recommendation.html)
+[![Open Notebook](https://img.shields.io/badge/Jupyter-Open_Notebook-blue?logo=Jupyter)](projects/Recommendation%20System.html)
 
-<div style="text-align: justify">Build a simple anime recommendation model with Collaborative Filtering (ALS Algorithm) and predict ratings for unwatched anime using data from MyAnimeList Database 2020.</div>
+<div style="text-align: justify">Build a Collaborative Filtering (ALS Algorithm) Anime Recommendation system, predict ratings for unwatched anime for each user; and a Content-based Recommendation system based on personal preference anime. Using data from MyAnimeList Database 2020.</div>
 <br>
 <center><img src="images/recommendation.png"></center>
 <br>
 
 ---
 
-### Business Growth Strategy Analysis in PowerBI
+### Business Growth Strategy Analysis (PowerBI)
 
 [![Open PBI](https://img.shields.io/badge/PowerBI-Open_PowerBI-blue?logo=Power-BI)](projects/PowerBI%20Project.pbix)
 
