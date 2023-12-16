@@ -20,7 +20,7 @@
 
 <div style="text-align: justify">Perform Exploratory Data Analysis, analyze and transform data, Feature Engineering and build Machine Learning models to detect fraudulent transactions. My model can detect <b>91.6%</b> of fraudulent transactions.</div>
 <br>
-<center><img src="images/fraud_output.jpg"></center>
+<center><img src="images/fraud_detection_output.jpg"></center>
 <br>
 
 ---
