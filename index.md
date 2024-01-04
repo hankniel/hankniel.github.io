@@ -1,6 +1,6 @@
 # Portfolio
 ---
-## Data Analyst
+## Data Projects
 
 ### Customer Segmentation Analysis and Churn Prediction (Python)
 
