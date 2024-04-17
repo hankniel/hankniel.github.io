@@ -13,19 +13,15 @@ permalink: /projects/recommendation_system
 
 ## Summary
 
-This Jupyter notebook is a comprehensive analysis of a dataset provided by Pizza Hut Vietnam. The dataset contains transactional data from 2021 to 2023, including details such as transaction date, sales amount, customer ID, customer gender, voucher status, and province. The analysis aims to provide insights into customer behavior, sales trends, and the effectiveness of various sales channels and strategies.
+This Jupyter notebook develops a collaborative filtering recommender system using the Alternating Least Squares (ALS) algorithm implemented in PySpark. The project focuses on recommending anime to users based on their historical ratings. It leverages a comprehensive dataset from Kaggle that includes user ratings for various anime. The goal is to enhance user engagement by suggesting animes that are likely to be of interest, leveraging recommender system technology that has become essential in many online services like Netflix and Amazon.
 
-The notebook is structured into five main sections:
+The notebook is structured into several key sections:
 
-1. **Import Data, EDA and RFM Segmentation**: The data is imported, cleaned, and explored. The exploration includes checking for missing values, duplicates, and outliers. The data is then segmented using RFM (Recency, Frequency, Monetary) analysis.
-
-2. **Churn and CLV Predict**: Models are built to predict customer churn and Customer Lifetime Value (CLV). These models help understand which customers are likely to churn and the potential value of each customer to the business.
-
-3. **Final Model for CLV and Churn Probability**: The models from the previous step are finalized and applied to different customer segments.
-
-4. **Additional Insights**: Additional insights are derived from the data, such as the retention rate and the number of new customers per month.
-
-5. **Recommendations**: Based on the analysis, recommendations are made to improve business performance.
+- **Context and Data Source**: Introduction to the importance of recommender systems and specifics about the dataset used.
+- **Collaborative Filtering**: Explanation and implementation of the ALS algorithm for making recommendations.
+- **Data Preparation**: Importing and cleaning data to ensure it is suitable for the model, including checks for missing values and correct data formats.
+- **Model Implementation**: Building and tuning the ALS model using Spark.
+- **Evaluation**: Assessing the performance of the model using appropriate metrics.
 
 ![Project Image](/images/recommendation.png)
 
@@ -33,18 +29,11 @@ The notebook is structured into five main sections:
 
 ## Techniques
 
-The analysis uses various data analysis and machine learning techniques:
+The analysis employs various data processing and machine learning techniques:
 
-- **Data Cleaning**: The data is cleaned by handling missing values and outliers. For example, negative sales amounts are corrected.
+- **Data Import and Cleaning**: Data is imported using PySpark, and initial checks for cleanliness are performed, ensuring no missing values and correct data types.
+- **Exploratory Data Analysis (EDA)**: Before building the model, the data's structure is analyzed, including checks for sparsity which is typical in recommendation system datasets.
+- **Collaborative Filtering with ALS**: Utilizing the ALS algorithm from Spark MLlib to predict user preferences based on past interactions.
+- **Model Evaluation**: Using regression metrics to evaluate the accuracy of the recommendations provided by the model.
 
-- **Exploratory Data Analysis (EDA)**: The data is explored using descriptive statistics and visualizations to understand the distribution of variables and the relationships between them.
-
-- **RFM Segmentation**: RFM (Recency, Frequency, Monetary) segmentation is used to segment customers based on their transaction history.
-
-- **Predictive Modeling**: Logistic Regression, Decision Tree Classifier, and XGBoost Regressor models are used to predict customer churn and Customer Lifetime Value (CLV).
-
-- **Model Evaluation**: The models are evaluated using metrics such as mean absolute error, mean squared error, and ROC AUC score.
-
-- **Grid Search**: Grid search is used to optimize the hyperparameters of the models.
-
-The analysis is implemented using Python, with libraries such as pandas for data manipulation, matplotlib and seaborn for visualization, and scikit-learn and XGBoost for machine learning.
+This project is implemented using Python and PySpark, showcasing the use of big data technologies for scalable machine learning applications.

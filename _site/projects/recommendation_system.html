@@ -61,27 +61,17 @@
 
   <h2 id="summary">Summary</h2>
 
-<p>This Jupyter notebook is a comprehensive analysis of a dataset provided by Pizza Hut Vietnam. The dataset contains transactional data from 2021 to 2023, including details such as transaction date, sales amount, customer ID, customer gender, voucher status, and province. The analysis aims to provide insights into customer behavior, sales trends, and the effectiveness of various sales channels and strategies.</p>
+<p>This Jupyter notebook develops a collaborative filtering recommender system using the Alternating Least Squares (ALS) algorithm implemented in PySpark. The project focuses on recommending anime to users based on their historical ratings. It leverages a comprehensive dataset from Kaggle that includes user ratings for various anime. The goal is to enhance user engagement by suggesting animes that are likely to be of interest, leveraging recommender system technology that has become essential in many online services like Netflix and Amazon.</p>
 
-<p>The notebook is structured into five main sections:</p>
+<p>The notebook is structured into several key sections:</p>
 
-<ol>
-  <li>
-    <p><strong>Import Data, EDA and RFM Segmentation</strong>: The data is imported, cleaned, and explored. The exploration includes checking for missing values, duplicates, and outliers. The data is then segmented using RFM (Recency, Frequency, Monetary) analysis.</p>
-  </li>
-  <li>
-    <p><strong>Churn and CLV Predict</strong>: Models are built to predict customer churn and Customer Lifetime Value (CLV). These models help understand which customers are likely to churn and the potential value of each customer to the business.</p>
-  </li>
-  <li>
-    <p><strong>Final Model for CLV and Churn Probability</strong>: The models from the previous step are finalized and applied to different customer segments.</p>
-  </li>
-  <li>
-    <p><strong>Additional Insights</strong>: Additional insights are derived from the data, such as the retention rate and the number of new customers per month.</p>
-  </li>
-  <li>
-    <p><strong>Recommendations</strong>: Based on the analysis, recommendations are made to improve business performance.</p>
-  </li>
-</ol>
+<ul>
+  <li><strong>Context and Data Source</strong>: Introduction to the importance of recommender systems and specifics about the dataset used.</li>
+  <li><strong>Collaborative Filtering</strong>: Explanation and implementation of the ALS algorithm for making recommendations.</li>
+  <li><strong>Data Preparation</strong>: Importing and cleaning data to ensure it is suitable for the model, including checks for missing values and correct data formats.</li>
+  <li><strong>Model Implementation</strong>: Building and tuning the ALS model using Spark.</li>
+  <li><strong>Evaluation</strong>: Assessing the performance of the model using appropriate metrics.</li>
+</ul>
 
 <p><img src="/images/recommendation.png" alt="Project Image" /></p>
 
@@ -89,30 +79,16 @@
 
 <h2 id="techniques">Techniques</h2>
 
-<p>The analysis uses various data analysis and machine learning techniques:</p>
+<p>The analysis employs various data processing and machine learning techniques:</p>
 
 <ul>
-  <li>
-    <p><strong>Data Cleaning</strong>: The data is cleaned by handling missing values and outliers. For example, negative sales amounts are corrected.</p>
-  </li>
-  <li>
-    <p><strong>Exploratory Data Analysis (EDA)</strong>: The data is explored using descriptive statistics and visualizations to understand the distribution of variables and the relationships between them.</p>
-  </li>
-  <li>
-    <p><strong>RFM Segmentation</strong>: RFM (Recency, Frequency, Monetary) segmentation is used to segment customers based on their transaction history.</p>
-  </li>
-  <li>
-    <p><strong>Predictive Modeling</strong>: Logistic Regression, Decision Tree Classifier, and XGBoost Regressor models are used to predict customer churn and Customer Lifetime Value (CLV).</p>
-  </li>
-  <li>
-    <p><strong>Model Evaluation</strong>: The models are evaluated using metrics such as mean absolute error, mean squared error, and ROC AUC score.</p>
-  </li>
-  <li>
-    <p><strong>Grid Search</strong>: Grid search is used to optimize the hyperparameters of the models.</p>
-  </li>
+  <li><strong>Data Import and Cleaning</strong>: Data is imported using PySpark, and initial checks for cleanliness are performed, ensuring no missing values and correct data types.</li>
+  <li><strong>Exploratory Data Analysis (EDA)</strong>: Before building the model, the data’s structure is analyzed, including checks for sparsity which is typical in recommendation system datasets.</li>
+  <li><strong>Collaborative Filtering with ALS</strong>: Utilizing the ALS algorithm from Spark MLlib to predict user preferences based on past interactions.</li>
+  <li><strong>Model Evaluation</strong>: Using regression metrics to evaluate the accuracy of the recommendations provided by the model.</li>
 </ul>
 
-<p>The analysis is implemented using Python, with libraries such as pandas for data manipulation, matplotlib and seaborn for visualization, and scikit-learn and XGBoost for machine learning.</p>
+<p>This project is implemented using Python and PySpark, showcasing the use of big data technologies for scalable machine learning applications.</p>
 
 
 </div>
@@ -132,7 +108,7 @@
 
     <footer>
       <span>
-        &copy; <time datetime="2024-04-17 21:02:12 +0700">2024</time> Đào Duy Đại.
+        &copy; <time datetime="2024-04-17 23:26:32 +0700">2024</time> Đào Duy Đại.
       </span>
     </footer>
   </body>

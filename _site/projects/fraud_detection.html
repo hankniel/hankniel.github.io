@@ -61,27 +61,17 @@
 
   <h2 id="summary">Summary</h2>
 
-<p>This Jupyter notebook is a comprehensive analysis of a dataset provided by Pizza Hut Vietnam. The dataset contains transactional data from 2021 to 2023, including details such as transaction date, sales amount, customer ID, customer gender, voucher status, and province. The analysis aims to provide insights into customer behavior, sales trends, and the effectiveness of various sales channels and strategies.</p>
+<p>This Jupyter notebook focuses on building a machine learning model to detect fraudulent credit card transactions using the XGBoost algorithm. The project utilizes a fictional dataset designed to simulate real-life transaction details, sourced from Kaggle. The goal is to enable credit card companies to identify unauthorized transactions effectively, ensuring customers are not charged for purchases they did not make.</p>
 
-<p>The notebook is structured into five main sections:</p>
+<p>The notebook is structured into several key sections:</p>
 
-<ol>
-  <li>
-    <p><strong>Import Data, EDA and RFM Segmentation</strong>: The data is imported, cleaned, and explored. The exploration includes checking for missing values, duplicates, and outliers. The data is then segmented using RFM (Recency, Frequency, Monetary) analysis.</p>
-  </li>
-  <li>
-    <p><strong>Churn and CLV Predict</strong>: Models are built to predict customer churn and Customer Lifetime Value (CLV). These models help understand which customers are likely to churn and the potential value of each customer to the business.</p>
-  </li>
-  <li>
-    <p><strong>Final Model for CLV and Churn Probability</strong>: The models from the previous step are finalized and applied to different customer segments.</p>
-  </li>
-  <li>
-    <p><strong>Additional Insights</strong>: Additional insights are derived from the data, such as the retention rate and the number of new customers per month.</p>
-  </li>
-  <li>
-    <p><strong>Recommendations</strong>: Based on the analysis, recommendations are made to improve business performance.</p>
-  </li>
-</ol>
+<ul>
+  <li><strong>Import Packages and Checking Data</strong>: Initial setup includes importing necessary libraries and checking the dataset for missing values and correct data types.</li>
+  <li><strong>Data Preprocessing</strong>: Handling categorical data, feature engineering, and preparing data for modeling.</li>
+  <li><strong>Model Building</strong>: Developing the fraud detection model using the XGBoost framework.</li>
+  <li><strong>Model Evaluation</strong>: Evaluating the model’s performance with appropriate metrics.</li>
+  <li><strong>Conclusion</strong>: Summarizing the findings and suggesting further improvements or additional analyses.</li>
+</ul>
 
 <p><img src="/images/fraud_detection.jpg" alt="Project Image" /></p>
 
@@ -89,30 +79,17 @@
 
 <h2 id="techniques">Techniques</h2>
 
-<p>The analysis uses various data analysis and machine learning techniques:</p>
+<p>The analysis employs various data science and machine learning techniques:</p>
 
 <ul>
-  <li>
-    <p><strong>Data Cleaning</strong>: The data is cleaned by handling missing values and outliers. For example, negative sales amounts are corrected.</p>
-  </li>
-  <li>
-    <p><strong>Exploratory Data Analysis (EDA)</strong>: The data is explored using descriptive statistics and visualizations to understand the distribution of variables and the relationships between them.</p>
-  </li>
-  <li>
-    <p><strong>RFM Segmentation</strong>: RFM (Recency, Frequency, Monetary) segmentation is used to segment customers based on their transaction history.</p>
-  </li>
-  <li>
-    <p><strong>Predictive Modeling</strong>: Logistic Regression, Decision Tree Classifier, and XGBoost Regressor models are used to predict customer churn and Customer Lifetime Value (CLV).</p>
-  </li>
-  <li>
-    <p><strong>Model Evaluation</strong>: The models are evaluated using metrics such as mean absolute error, mean squared error, and ROC AUC score.</p>
-  </li>
-  <li>
-    <p><strong>Grid Search</strong>: Grid search is used to optimize the hyperparameters of the models.</p>
-  </li>
+  <li><strong>Data Cleaning</strong>: Ensures the dataset has no missing values and all data types are correctly set for analysis.</li>
+  <li><strong>Exploratory Data Analysis (EDA)</strong>: Uses libraries like Matplotlib and Seaborn for visual exploration of the dataset, helping to understand patterns and anomalies.</li>
+  <li><strong>Feature Engineering</strong>: Enhances model performance by creating new features that help in distinguishing fraudulent transactions.</li>
+  <li><strong>Machine Learning Modeling</strong>: Utilizes the XGBoost algorithm, known for its performance in classification tasks, to predict fraudulent activities.</li>
+  <li><strong>Model Evaluation</strong>: Applies metrics like accuracy, precision, recall, and F1-score to measure the effectiveness of the model.</li>
 </ul>
 
-<p>The analysis is implemented using Python, with libraries such as pandas for data manipulation, matplotlib and seaborn for visualization, and scikit-learn and XGBoost for machine learning.</p>
+<p>This project is implemented using Python, with extensive use of libraries such as pandas for data manipulation, Matplotlib and Seaborn for visualization, and XGBoost for machine learning modeling.</p>
 
 
 </div>
@@ -130,7 +107,7 @@
 
     <footer>
       <span>
-        &copy; <time datetime="2024-04-17 21:02:12 +0700">2024</time> Đào Duy Đại.
+        &copy; <time datetime="2024-04-17 23:26:32 +0700">2024</time> Đào Duy Đại.
       </span>
     </footer>
   </body>

@@ -12,19 +12,15 @@ permalink: /projects/fraud_detection
 
 ## Summary
 
-This Jupyter notebook is a comprehensive analysis of a dataset provided by Pizza Hut Vietnam. The dataset contains transactional data from 2021 to 2023, including details such as transaction date, sales amount, customer ID, customer gender, voucher status, and province. The analysis aims to provide insights into customer behavior, sales trends, and the effectiveness of various sales channels and strategies.
+This Jupyter notebook focuses on building a machine learning model to detect fraudulent credit card transactions using the XGBoost algorithm. The project utilizes a fictional dataset designed to simulate real-life transaction details, sourced from Kaggle. The goal is to enable credit card companies to identify unauthorized transactions effectively, ensuring customers are not charged for purchases they did not make.
 
-The notebook is structured into five main sections:
+The notebook is structured into several key sections:
 
-1. **Import Data, EDA and RFM Segmentation**: The data is imported, cleaned, and explored. The exploration includes checking for missing values, duplicates, and outliers. The data is then segmented using RFM (Recency, Frequency, Monetary) analysis.
-
-2. **Churn and CLV Predict**: Models are built to predict customer churn and Customer Lifetime Value (CLV). These models help understand which customers are likely to churn and the potential value of each customer to the business.
-
-3. **Final Model for CLV and Churn Probability**: The models from the previous step are finalized and applied to different customer segments.
-
-4. **Additional Insights**: Additional insights are derived from the data, such as the retention rate and the number of new customers per month.
-
-5. **Recommendations**: Based on the analysis, recommendations are made to improve business performance.
+- **Import Packages and Checking Data**: Initial setup includes importing necessary libraries and checking the dataset for missing values and correct data types.
+- **Data Preprocessing**: Handling categorical data, feature engineering, and preparing data for modeling.
+- **Model Building**: Developing the fraud detection model using the XGBoost framework.
+- **Model Evaluation**: Evaluating the model's performance with appropriate metrics.
+- **Conclusion**: Summarizing the findings and suggesting further improvements or additional analyses.
 
 ![Project Image](/images/fraud_detection.jpg)
 
@@ -32,18 +28,12 @@ The notebook is structured into five main sections:
 
 ## Techniques
 
-The analysis uses various data analysis and machine learning techniques:
+The analysis employs various data science and machine learning techniques:
 
-- **Data Cleaning**: The data is cleaned by handling missing values and outliers. For example, negative sales amounts are corrected.
+- **Data Cleaning**: Ensures the dataset has no missing values and all data types are correctly set for analysis.
+- **Exploratory Data Analysis (EDA)**: Uses libraries like Matplotlib and Seaborn for visual exploration of the dataset, helping to understand patterns and anomalies.
+- **Feature Engineering**: Enhances model performance by creating new features that help in distinguishing fraudulent transactions.
+- **Machine Learning Modeling**: Utilizes the XGBoost algorithm, known for its performance in classification tasks, to predict fraudulent activities.
+- **Model Evaluation**: Applies metrics like accuracy, precision, recall, and F1-score to measure the effectiveness of the model.
 
-- **Exploratory Data Analysis (EDA)**: The data is explored using descriptive statistics and visualizations to understand the distribution of variables and the relationships between them.
-
-- **RFM Segmentation**: RFM (Recency, Frequency, Monetary) segmentation is used to segment customers based on their transaction history.
-
-- **Predictive Modeling**: Logistic Regression, Decision Tree Classifier, and XGBoost Regressor models are used to predict customer churn and Customer Lifetime Value (CLV).
-
-- **Model Evaluation**: The models are evaluated using metrics such as mean absolute error, mean squared error, and ROC AUC score.
-
-- **Grid Search**: Grid search is used to optimize the hyperparameters of the models.
-
-The analysis is implemented using Python, with libraries such as pandas for data manipulation, matplotlib and seaborn for visualization, and scikit-learn and XGBoost for machine learning.
+This project is implemented using Python, with extensive use of libraries such as pandas for data manipulation, Matplotlib and Seaborn for visualization, and XGBoost for machine learning modeling.
