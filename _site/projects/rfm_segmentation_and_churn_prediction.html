@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>hankniel</title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="/assets/css/main.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Libre+Baskerville:400,400i,700">
+  
+  <!-- Font Awesome -->
+  <link rel="stylesheet" type="text/css" href="/assets/css/fontawesome-all.min.css">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon.ico">
+
+  <!-- Google Analytics -->
+  
+  <script>
+      (function(i, s, o, g, r, a, m) {
+          i['GoogleAnalyticsObject'] = r;
+          i[r] = i[r] || function() {
+              (i[r].q = i[r].q || []).push(arguments)
+          }, i[r].l = 1 * new Date();
+          a = s.createElement(o),
+              m = s.getElementsByTagName(o)[0];
+          a.async = 1;
+          a.src = g;
+          m.parentNode.insertBefore(a, m)
+      })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+      ga('create', 'G-6PPHKRGJGV', 'auto');
+      ga('send', 'pageview');
+
+  </script>
+  
+
+</head>
+
+
+  <body>
+    <nav class="nav">
+      <div class="nav-container">
+        <a href="/">
+          <h2 class="nav-title">hankniel</h2>
+        </a>
+        <ul>
+          <li><a href="/">About</a></li>
+          <li><a href="/portfolio/">Portfolio</a></li>
+        </ul>
+    </div>
+  </nav>
+
+    <main>
+      <div class="post">
+  <h3 class="post-title">RFM Segmentation & Churn Prediction</h3>
+  <div class="post-line"></div>
+
+  <h2 id="summary">Summary</h2>
+
+<p>This project involves a comprehensive analysis of transactional data from Pizza Hut Vietnam, spanning from 2021 to 2023. The data includes transaction date, sales amount, customer ID, customer gender, voucher status, and province. The goal of the project is to gain insights into customer behavior, identify sales trends, segment customers, predict churn rate and evaluate the effectiveness of various sales channels and strategies.</p>
+
+<p>The project is divided into five main parts:</p>
+
+<ol>
+  <li>
+    <p><strong>Import Data, EDA and RFM Segmentation</strong>: The data is imported, cleaned, and explored. The exploration includes checking for missing values, duplicates, and outliers. The data is then segmented using RFM (Recency, Frequency, Monetary) analysis.</p>
+  </li>
+  <li>
+    <p><strong>Churn and CLV Predict</strong>: Models are built to predict customer churn and Customer Lifetime Value (CLV). These models help understand which customers are likely to churn and the potential value of each customer to the business.</p>
+  </li>
+  <li>
+    <p><strong>Final Model for CLV and Churn Probability</strong>: The models from the previous step are finalized and applied to different customer segments.</p>
+  </li>
+  <li>
+    <p><strong>Additional Insights</strong>: Additional insights are derived from the data, such as the retention rate and the number of new customers per month.</p>
+  </li>
+  <li>
+    <p><strong>Recommendations</strong>: Based on the analysis, recommendations are made to improve business performance.</p>
+  </li>
+</ol>
+
+<p><img src="/images/rfm_segmentation.png" alt="Project Image" /></p>
+
+<p><a href="/notebooks/Customer%20Segmentation%20Analysis%20and%20Churn%20Prediction.html"><img src="https://img.shields.io/badge/Jupyter-Open_Notebook-blue?logo=Jupyter" alt="Open Notebook" /></a></p>
+
+<h2 id="techniques">Techniques</h2>
+
+<p>The analysis uses various data analysis and machine learning techniques:</p>
+
+<ul>
+  <li>
+    <p><strong>Data Cleaning</strong>: The data is cleaned by handling missing values and outliers. For example, negative sales amounts are corrected.</p>
+  </li>
+  <li>
+    <p><strong>Exploratory Data Analysis (EDA)</strong>: The data is explored using descriptive statistics and visualizations to understand the distribution of variables and the relationships between them.</p>
+  </li>
+  <li>
+    <p><strong>RFM Segmentation</strong>: RFM (Recency, Frequency, Monetary) segmentation is used to segment customers based on their transaction history.</p>
+  </li>
+  <li>
+    <p><strong>Predictive Modeling</strong>: BG/NBD - Gamma-Gamma Model and XGBoost Regressor are used to predict customer churn and Customer Lifetime Value (CLV).</p>
+  </li>
+  <li>
+    <p><strong>Model Evaluation</strong>: The models are evaluated using metrics such as mean absolute error, mean squared error, and ROC AUC score.</p>
+  </li>
+  <li>
+    <p><strong>Grid Search</strong>: Grid search is used to optimize the hyperparameters of the models.</p>
+  </li>
+</ul>
+
+<p>The analysis is implemented using Python, with libraries such as pandas for data manipulation, matplotlib and seaborn for visualization, and scikit-learn and XGBoost for machine learning.</p>
+
+
+</div>
+
+<div class="pagination">
+  
+    <a href="/projects/telecom_recommendation_system" class="left next">Prev</a>
+  
+  
+    <a href="/projects/recommendation_system" class="right next">Next</a>
+  
+
+  <a href="#" class="top">Top</a>
+</div>
+
+    </main>
+
+    <footer>
+      <span>
+        &copy; <time datetime="2024-04-17 21:02:12 +0700">2024</time> Đào Duy Đại.
+      </span>
+    </footer>
+  </body>
+</html>

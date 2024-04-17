@@ -1,15 +1,15 @@
 # Site settings
-title: A.P
-baseurl: "/ap"
-url: "https://kssim.github.io"
-google_analytics: # Tracking ID, e.g. "UA-000000-01"
+title: hankniel
+baseurl: "hankniel.github.io"
+url: "https://hankniel.github.io"
+google_analytics: G-6PPHKRGJGV # Tracking ID, e.g. "UA-000000-01"
 
 # Author
 author:
-  name: KyeongSeob Sim
-  desc: Hello nice to meet you
-  email: ksub0912@gmail.com
-  selfie: assets/img/profile.jpg
+  name: Đào Duy Đại
+  desc: 
+  email: aiaoduy@gmail.com
+  selfie: assets/img/profile.png
 
 # social
 social:
@@ -17,13 +17,13 @@ social:
   behance:
   bitbucket:
   dribbble:
-  facebook: Test
+  facebook: hankelni
   flickr:
-  github: kssim
+  github: hankniel
   google_plus:
   instagram:
   keybase:
-  linkedin: https://www.linkedin.com/in/kssim/ 
+  linkedin: https://www.linkedin.com/in/daoduydai/
   pinterest:
   reddit:
   soundcloud:
@@ -31,7 +31,7 @@ social:
   steam:
   tumblr:
   gitlab:
-  twitter: Test
+  twitter: 
   vimeo:
   wordpress:
   youtube:
@@ -48,6 +48,7 @@ sass:
 # Gems
 plugins:
   - jekyll-paginate
+  - jekyll-seo-tag
 
 # Permalinks
 permalink: /:year-:month-:day/:title

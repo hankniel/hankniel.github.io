@@ -1,26 +1,34 @@
 ---
-layout: about 
+layout: about
 ---
 
-# About Me
-There is no specific format here. You can fill out the form you want.  
-For example, you might want to write a brief introduction about your self, experience, interests, publications, and other information.  
-I wrote "about me", "career", and "interests" on this page as an example.  
+# **About Me**
 
-<br/>
+I am a hard-working, enthusiastic, and disciplined data scientist. A Python charmer, a maths lover, a wrangler of algorithms, but sometimes I believe in human intuition more than the numbers.
 
-# Career
-* Second Company (2012/01 ~ )
-  * Web Application Firewall
-    * Developed TCP network acceleration module.
-    * Developde Application User Interface.
-* First Company (2011/01 ~ 2011/12)
-  * VPN Development Company
-  * Team Leader of VPN Development Div.
+I am currently a final-year student at Foreign Trade University.
 
-<br/>
+## **Education**
 
-# Interests
-I am interested in technology trends.  
-I'm not afraid to learn languages, but I enjoy using Python.  
-I like to automate and reduce annoying things.  
+- *Foreign Trade University*, Class of 2024
+  - Bachelor of Business in *Japanese-Style International Business (JIB)*
+  - GPA: 3.63 /4.0
+- *Tuyen Quang Specialized High School*, Class of 2020
+  - Scored 29/30 (A department) in the National High School Graduation Exam 2020 with 10/10 in Math.
+  - Achieved dual valedictorian honors: Tuyen Quang province (2020) and JIB faculty entrance.
+
+## **Career**
+
+- **Data Scientist** at *Dagoras Technology and Communication JSC*, Jan. 2024 - Apr. 2024
+  - Mastered Python, PostgreSQL, and advanced ML, enhancing scalable data science solutions and SSH server management.
+  - Participated in the full lifecycle of data science projects from consultation to scalable API deployment.
+  - Streamlined data workflows, boosting project efficiency.
+  - Advanced business solutions through supervised and unsupervised learning applications.
+
+## **Interests**
+
+I am interested in algorithms and math. I love science and swimming. Sometimes I play games and read books.
+
+## Contact Me
+
+Feel free to reach out to me via *Email*, *Facebook*, *Github*, or *LinkedIn* below.

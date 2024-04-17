@@ -18,8 +18,11 @@ layout: base
               <i class="fa fa-calendar-alt"></i><span class="portfolio-icon-text">{{ post.date | date: "%B %d, %Y" }}</span>
           </span>
           </br>
-          <span class="portfolio-icon">
-              <i class="fa fa-cog"></i><span class="portfolio-icon-text">{{ post.tech }}</span>
+          <span class="portfolio-icon" style="line-height: 27px;">
+              <i class="fa fa-cog"></i>
+              {% for badge in post.badges %}
+                  <img src="{{ badge }}" alt="{{ post.tech }}" style="height: 25px; vertical-align: top; display: inline; margin-left: 7px;">
+              {% endfor %}
           </span>
         </div>
       </div>
@@ -38,3 +41,4 @@ layout: base
 
   <span>{{ paginator.page }}</span>
 </div>
+
