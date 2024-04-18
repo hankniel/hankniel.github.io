@@ -7,7 +7,7 @@ badges:
   - "https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"
   - "https://img.shields.io/badge/scikit_learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white"
 type: Personal
-permalink: /projects/fraud_detection
+permalink: /portfolio/fraud_detection
 ---
 
 ## Summary
@@ -24,7 +24,7 @@ The notebook is structured into several key sections:
 
 ![Project Image](/images/fraud_detection.jpg)
 
-[![Open Notebook](https://img.shields.io/badge/Jupyter-Open_Notebook-blue?logo=Jupyter)](/notebooks/Fraud%20Detection.html)
+[![Open Notebook](https://img.shields.io/badge/Jupyter-Open_Notebook-blue?logo=Jupyter)](/notebooks/fraud_detection.html)
 
 ## Techniques
 

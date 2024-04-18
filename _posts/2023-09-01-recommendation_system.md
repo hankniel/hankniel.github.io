@@ -8,7 +8,7 @@ badges:
   - "https://img.shields.io/badge/PySpark-FCC624?style=for-the-badge&logo=apachespark&logoColor=#E35A16"
   - "https://img.shields.io/badge/scikit_learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white"
 type: Personal
-permalink: /projects/recommendation_system
+permalink: /portfolio/anime_recommendation_system
 ---
 
 ## Summary
@@ -25,7 +25,7 @@ The notebook is structured into several key sections:
 
 ![Project Image](/images/recommendation.png)
 
-[![Open Notebook](https://img.shields.io/badge/Jupyter-Open_Notebook-blue?logo=Jupyter)](/notebooks/Recommendation%20System.html)
+[![Open Notebook](https://img.shields.io/badge/Jupyter-Open_Notebook-blue?logo=Jupyter)](/notebooks/anime_recommendation_system.html)
 
 ## Techniques
 

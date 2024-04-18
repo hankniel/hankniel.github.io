@@ -7,7 +7,7 @@ badges:
   - "https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"
   - "https://img.shields.io/badge/scikit_learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white"
 type: Personal
-permalink: /projects/rfm_segmentation_and_churn_prediction
+permalink: /portfolio/rfm_segmentation_and_churn_prediction
 ---
 
 ## Summary
@@ -26,9 +26,9 @@ The project is divided into five main parts:
 
 5. **Recommendations**: Based on the analysis, recommendations are made to improve business performance.
 
-![Project Image](/images/rfm_segmentation.png)
+![Project Image](/images/rfm_cover.png)
 
-[![Open Notebook](https://img.shields.io/badge/Jupyter-Open_Notebook-blue?logo=Jupyter)](/notebooks/Customer%20Segmentation%20Analysis%20and%20Churn%20Prediction.html)
+[![Open Notebook](https://img.shields.io/badge/Jupyter-Open_Notebook-blue?logo=Jupyter)](/notebooks/rfm_segmentation_and_churn_prediction.html)
 
 ## Techniques
 

@@ -1,6 +1,6 @@
 # My Data Science Portfolio
 
-Hello! I am a hard-working, enthusiastic, and disciplined data scientist. I am currently a final-year student at Foreign Trade University. I have a strong interest in algorithms, math, and science. I am also a Python charmer, a maths lover, a wrangler of algorithms, but sometimes I believe in human intuition more than the numbers.
+Hello! I'm Dao Duy Dai, and this is my Data Science portfolio.
 
 ## Projects
 
@@ -8,7 +8,7 @@ Here are some of the projects I've worked on:
 
 ### [Fraud Detection](/projects/fraud_detection)
 
-A comprehensive analysis of a dataset provided by Pizza Hut Vietnam. The analysis aims to provide insights into customer behavior, sales trends, and the effectiveness of various sales channels and strategies. I used Python and scikit-learn for this project.
+Fraud Detection using XGBoost and Python.
 
 [![Open Notebook](https://img.shields.io/badge/Jupyter-Open_Notebook-blue?logo=Jupyter)](/notebooks/Fraud%20Detection.html)
 
@@ -30,7 +30,7 @@ A real-world project to build a recommendation system for a telecom client. The 
 
 ## Skills
 
-- Languages: Python, PySpark
+- Languages: Python, PySpark, SQL
 - Tools: Docker, Git, Flask
 
 ## Contact Me
