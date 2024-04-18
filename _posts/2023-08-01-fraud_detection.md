@@ -22,7 +22,7 @@ The notebook is structured into several key sections:
 - **Model Evaluation**: Evaluating the model's performance with appropriate metrics.
 - **Conclusion**: Summarizing the findings and suggesting further improvements or additional analyses.
 
-![Project Image](/images/fraud_detection.jpg)
+![Project Image](/images/fraud_cover.png)
 
 [![Open Notebook](https://img.shields.io/badge/Jupyter-Open_Notebook-blue?logo=Jupyter)](/notebooks/fraud_detection.html)
 
