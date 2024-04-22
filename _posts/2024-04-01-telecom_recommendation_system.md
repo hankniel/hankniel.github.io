@@ -8,6 +8,7 @@ badges:
   - "https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white"
   - "https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white"
   - "https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black"
+  - "https://img.shields.io/badge/Airflow-017CEE?style=for-the-badge&logo=Apache%20Airflow&logoColor=white"
 type: Work
 permalink: /portfolio/telecom_recommendation_system
 ---
@@ -25,6 +26,7 @@ The core of this project involves:
 - **API Development**: Using Flask, a micro web framework written in Python, to build and deploy APIs that serve the recommendations to the client's systems.
 - **Database Management**: Handling large datasets with PostgreSQL to store and manage user data, which is crucial for generating accurate recommendations.
 - **Linux**: Utilizing Linux-based servers to host and run our applications, ensuring stability and performance.
+- **Workflow Management**: Leveraging Apache Airflow for task management and orchestrating the machine learning workflow.
 
 ## Role and Responsibilities
 
@@ -35,6 +37,7 @@ As the lead developer, my responsibilities include:
 - Implementing the models into a functional API.
 - Managing the PostgreSQL database to ensure optimal performance and reliability.
 - Overseeing the deployment of our Flask-based API on the client's Linux servers.
+- Managing the machine learning workflow with Apache Airflow.
 
 ## Outcome
 
