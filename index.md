@@ -31,4 +31,4 @@ I am interested in algorithms and math. I love science and swimming. Sometimes I
 
 ## Contact Me
 
-Feel free to reach out to me via *Email*, *Facebook*, *Github*, or *LinkedIn* below.
+Feel free to reach out to me via *Email*, *Github*, or *LinkedIn* below.
