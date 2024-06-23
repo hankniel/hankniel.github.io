@@ -30,7 +30,7 @@ Developed during the VPBank Technology Hackathon 2024, the Customer Lifetime Val
 5. **Omnichannel Marketing Optimization**: AWS Kinesis processes real-time data, while Amazon Pinpoint manages targeted marketing campaigns across multiple channels.
 6. **Data Visualization and Insights**: AWS QuickSight creates dashboards to monitor customer interactions and campaign performance, optimizing marketing efforts.
 
-<img src="/images/vpbank_hackathon.png" alt="Project Image" style="width: 100%; max-width: 600px;">
+<img src="/images/vpbank_hackathon.png" alt="Project Image" style="width: 100%; max-width: 1200px;">
 
 ## Techniques
 
